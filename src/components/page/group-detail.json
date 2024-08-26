@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_group_details",
+  "info": {
+    "displayName": "groupDetail",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "advantages2": {
+      "displayName": "advantages2",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.advantages2"
+    }
+  }
+}

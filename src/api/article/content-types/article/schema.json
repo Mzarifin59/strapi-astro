@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "artikel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "keyword": {
+      "type": "string",
+      "required": true
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "page.relation-article",
+        "page.mitra-info",
+        "page.header",
+        "page.group-detail",
+        "page.feedback",
+        "page.button",
+        "page.advantages2",
+        "page.advantage1"
+      ]
+    },
+    "advantages1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.advantage1"
+    },
+    "feedback": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.feedback"
+    },
+    "DetailProduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.group-detail"
+    },
+    "relationArticle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.relation-article"
+    }
+  }
+}

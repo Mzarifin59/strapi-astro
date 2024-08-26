@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footer_footer_certifications",
+  "info": {
+    "displayName": "FooterCertification",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "certificationImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "certificationDescription": {
+      "type": "text"
+    }
+  }
+}

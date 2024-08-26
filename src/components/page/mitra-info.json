@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_mitra_infos",
+  "info": {
+    "displayName": "mitraInfo",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logoImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

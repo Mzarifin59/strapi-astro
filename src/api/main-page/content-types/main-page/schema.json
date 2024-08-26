@@ -1,0 +1,89 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "MainPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "preventIndexing": {
+      "type": "boolean"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "mainHeader": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.header"
+    },
+    "mitraInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.mitra-info"
+    },
+    "header1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "kanban1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.advantage1"
+    },
+    "header2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "header3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "header4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "relationArticle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.relation-article"
+    },
+    "header5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "kanban2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.group-detail"
+    },
+    "feedback": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.feedback"
+    }
+  }
+}

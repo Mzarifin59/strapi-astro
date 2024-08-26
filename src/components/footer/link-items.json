@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_link_items",
+  "info": {
+    "displayName": "LinkItems"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_navbar_menus",
+  "info": {
+    "displayName": "menu"
+  },
+  "options": {},
+  "attributes": {
+    "part": {
+      "type": "string"
+    },
+    "subMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.sub-menu"
+    }
+  }
+}

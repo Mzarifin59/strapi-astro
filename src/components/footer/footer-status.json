@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_footer_statuses",
+  "info": {
+    "displayName": "FooterStatus",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "statusText": {
+      "type": "string"
+    },
+    "statusDescription": {
+      "type": "text"
+    },
+    "statusColor": {
+      "type": "string"
+    }
+  }
+}

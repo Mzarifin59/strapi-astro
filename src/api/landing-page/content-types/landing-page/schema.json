@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "landingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "keyword": {
+      "type": "string",
+      "required": true
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.header"
+    },
+    "mitra": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.mitra-info"
+    },
+    "advantages1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.advantage1"
+    },
+    "DetailProduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.group-detail"
+    },
+    "feedback": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.feedback"
+    },
+    "relationArticle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.relation-article"
+    }
+  }
+}

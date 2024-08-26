@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_relation_articles",
+  "info": {
+    "displayName": "relationArticle",
+    "icon": "arrowRight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "description": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

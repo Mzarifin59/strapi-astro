@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "seo",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "image": {
+      "displayName": "sharedImage",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.shared-image"
+    }
+  }
+}

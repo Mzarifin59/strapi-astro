@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footer_social_links",
+  "info": {
+    "displayName": "social-link",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

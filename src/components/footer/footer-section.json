@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_footer_sections",
+  "info": {
+    "displayName": "FooterSection",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "displayName": "LinkItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.link-items"
+    }
+  }
+}
